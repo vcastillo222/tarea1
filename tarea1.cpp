@@ -9,7 +9,7 @@ using std::ofstream;
 
 
 
-
+/*
 class respuestas 
 { 
     bool tipo;
@@ -30,18 +30,21 @@ schreiben eins (1) oder zwei (1) wenn auch du wollen von habe mehr varianten" <<
     }
 
 }
+*/
         
 
-class preguntas //(alter, tax)
+class pregunta //(alter, tax)
 {
 string taxonomia;
 int cantpre;
+string respuesta;
+string pregunta;
 
 public:
 std::ofstream Preguntas("Preguntas.txt");  
 
 
-//
+//preguntar por cantidad de alternativas
 //preguntar por cantidad de preguntas 
 //for 
 bool esc;
@@ -62,7 +65,8 @@ while(esc == true)
 class prueba (preguntas) { //(std asignatura, preguntas.txt){ public:  
 string asignatura;
 string pregunta;
-
+//preguntar por cantidad de preguntas 
+    
 public:
 
 std::ofstream Prueba("Prueba.txt")
