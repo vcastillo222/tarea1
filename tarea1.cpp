@@ -15,6 +15,7 @@ class respuestas
     bool tipo;
     string respuesta;
     string alt;
+    int numpre;
     
     public: 
     cout << "wist du wollen zwei varianten (ja oder nein)? \n 
@@ -34,20 +35,24 @@ schreiben eins (1) oder zwei (1) wenn auch du wollen von habe mehr varianten" <<
 class preguntas //(alter, tax)
 {
 string taxonomia;
-
+int cantpre;
 
 public:
 std::ofstream Preguntas("Preguntas.txt");  
 
+
+//
+//preguntar por cantidad de preguntas 
+//for 
 bool esc;
 cout << "desea escribir una pregunta? si=1 no=0" << endl;
 cin >> esc;
 while(esc == true)
 {
     Preguntas.open; 
-    cout << "escriba la letra de la taxonomia (a, b, c, d, e, f, g, h) en el primer caracter\n Ejemplo: -cuantos"
+      
     cin >> Preguntas; 
-    cout >> "desea elegir otra opcion del menu">endl;
+    cout >> "desea elegir otra opcion del menu">endl;|
     cin << menu;
 }
 
