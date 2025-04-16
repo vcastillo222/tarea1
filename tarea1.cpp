@@ -10,21 +10,29 @@ using std::ofstream;
 
 
 
-class alter { 
+class respuestas 
+{ 
     bool tipo;
     string respuesta;
-    string alternativa; 
+    string alt;
     
     public: 
+    cout << "wist du wollen zwei varianten (ja oder nein)? \n 
+schreiben eins (1) oder zwei (1) wenn auch du wollen von habe mehr varianten" << endl;
+    if(tipo==true)
+    {
+    respuesta = res;
+    cout << "du kannst schreiben die response?" << endl;
+    cin >> res;
+    //it recieves the response 
     
-     
+    }
 
 }
         
 
-class preguntas {alter, tax) public:  
-
-
+class preguntas //(alter, tax)
+{
 string taxonomia;
 
 
