@@ -36,8 +36,9 @@ schreiben eins (1) oder zwei (1) wenn auch du wollen von habe mehr varianten" <<
 class pregunta //(alter, tax)
 {
 string taxonomia;
-int cantpre;
+int cantpre, cantalt, numpre;
 string respuesta;
+string alternativa; 
 string pregunta;
 
 public:
