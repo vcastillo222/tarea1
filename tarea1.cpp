@@ -5,60 +5,32 @@ using std::cerr;
 using std::endl;
 #include <fstream>
 using std::ofstream;
-#include <cstdlib>
+#include <cstdlib>     
 
-
-
-/*
-class respuestas 
-{ 
-    bool tipo;
-    string respuesta;
-    string alt;
-    int numpre;
-    
-    public: 
-    cout << "wist du wollen zwei varianten (ja oder nein)? \n 
-schreiben eins (1) oder zwei (1) wenn auch du wollen von habe mehr varianten" << endl;
-    if(tipo==true)
-    {
-    respuesta = res;
-    cout << "du kannst schreiben die response?" << endl;
-    cin >> res;
-    //it recieves the response 
-    
-    }
-
-}
-*/
-        
-
-class pregunta //(alter, tax)
+class pregunta 
 {
-string taxonomia;
-int cantpre, cantalt, numpre;
-string respuesta;
-string alternativa; 
-string pregunta;
 
+int cantpre, cantalt, numpre, nivtax;
+std::string respuesta;
+std::string alternativa; 
+std::string pregunta;
+      
 public:
+      pregunta(std::string respuesta, std::string alternativa, std::string pregunta, int edad, int cantalt, int numpre, int nivtax);
+
+
+
 std::ofstream Preguntas("Preguntas.txt");  
 
+cout << "cuántas preguntas desea?" << endl;
+cin >> cantpre; 
 
-//preguntar por cantidad de alternativas
-//preguntar por cantidad de preguntas 
-//for 
-bool esc;
-cout << "desea escribir una pregunta? si=1 no=0" << endl;
-cin >> esc;
-while(esc == true)
+while(/* cantidad de preguntas */)
 {
-    Preguntas.open; 
-      
-    cin >> Preguntas; 
-    cout >> "desea elegir otra opcion del menu">endl;|
-    cin << menu;
-}
+    cout << "qué tipo de pregunta quiere? v/f o alternativas variadas?" 
+        cin >> cantalt;
+    for( /* cantidad de preguntas,  */ 
+} 
 
 }  ;
 
@@ -66,14 +38,11 @@ while(esc == true)
 class prueba (preguntas) { //(std asignatura, preguntas.txt){ public:  
 string asignatura;
 string pregunta;
-//preguntar por cantidad de preguntas 
     
 public:
 
 std::ofstream Prueba("Prueba.txt")
-
-
-//open preguntas.txt, escribir pregunta 
+//escribir preguntas creadas 
 
 }  
 
