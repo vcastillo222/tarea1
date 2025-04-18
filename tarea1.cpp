@@ -29,7 +29,7 @@ while(/* cantidad de preguntas */)
 {
     cout << "qué tipo de pregunta quiere? v/f o alternativas variadas?" 
         cin >> cantalt;
-    for( /* cantidad de preguntas,  */ 
+    for( /* cantidad de preguntas */ 
 } 
 
 }  ;
