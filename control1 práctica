@@ -3,3 +3,22 @@ https://activitywatch.net/
 
 Obsidian.md
   
+
+// no se permite acceso directo a la base de datos es peligroso. 
+
+lo que se hace es tener un método 
+
+modelo -> 
+implementar funcionalidades para extraer información. 
+
+Privado. 
+
+llamadas al modelo -> controlador -> modelo.  
+
+controlador (no es la interfa<) 
+
+la interfaz muestra la información que busca el controlador -> el controlador busca la información con un método en el modelo, que tiene una función que le otorga la información. 
+
+combo box -> listado de opciones. Lista de opciones. 
+
+código pokemon. 
