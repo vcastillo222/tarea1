@@ -17,3 +17,6 @@ public class Taller2p {
         LoginControl controller = new LoginControl();
     }
 }
+
+
+////radio button, checkbox, lectura de archivos. 
